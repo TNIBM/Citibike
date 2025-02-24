@@ -1,3 +1,8 @@
+# add data folder
+Data/
+# custom ignores
+anaconda_projects/
+.virtual_documents/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
