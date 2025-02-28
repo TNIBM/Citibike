@@ -1,3 +1,5 @@
+# html ignores
+*.html
 # add data folder
 Data/
 # custom ignores
