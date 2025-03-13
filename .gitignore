@@ -1,7 +1,10 @@
 # html ignores
 #*.html
 # add data folder
+
 Data/
+
+gi
 # custom ignores
 anaconda_projects/
 .virtual_documents/
