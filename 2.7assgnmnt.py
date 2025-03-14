@@ -71,7 +71,7 @@ elif page == 'Weather component and bike usage':
     )
 
     st.plotly_chart(fig_2, use_container_width=True)
-    st.markdown("There is an obvious correlation between the rise and drop of temperatures and their relationship with the frequency of bike trips taken daily. As temperatures plunge, so does bike usage. This insight indicates that the shortage problem may be prevalent merely in the warmer months, approximately from May to October.")
+    st.markdown("There is not a very sensible correlation between the rise and drop of temperatures and their relationship with the frequency of bike trips taken daily. As temperatures drops like february, the bike usage increases. This insight indicates that the shortage problem may be prevalent merely in the colder months, approximately from November to March.")
 
 ### Most popular stations page
 
@@ -135,4 +135,4 @@ else:
     st.image(bikes)
     st.markdown("### Our analysis has shown that Citi Bike should focus on the following objectives moving forward:")
     st.markdown("- Add more stations to the locations around the Hudson River line, such as Vesey St & Church St - North Moore St & Greenwich St, Roosevelt Island Tramway - Southpoint Park(in island) and Soissons Landing - Yankee Ferry Terminal(in island), and around the city center areas, such as 1 Ave & E 62 St - 1 Ave & E68 St, E 68 St & 3 Ave - 1 Ave & E68 St, and W21 St & 6 Ave - 9 Ave & W 22 St.")
-    st.markdown("- Ensure that bikes are fully stocked in all these stations during the warmer months in order to meet the higher demand, but provide a lower supply in winter and late autumn to reduce logistics costs.")
+    st.markdown("- Ensure that bikes are fully stocked in all these stations during the colder months in order to meet the higher demand, but provide a lower supply in hot summer and late spring to reduce logistics costs.")
