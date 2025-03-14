@@ -45,7 +45,7 @@ if page == "Intro page":
     st.markdown("- Recommendations")
     st.markdown("The dropdown menu on the left 'Aspect Selector' will take you to the different aspects of the analysis our team looked at.")
 
-    myImage = Image.open("CitiBike.jpg") #source: https://www.xbedeals.site/?path=page/ggitem&ggpid=1269823
+    myImage = Image.open("citiBike.jpg") #source: https://www.xbedeals.site/?path=page/ggitem&ggpid=1269823
     st.image(myImage)
 
 
