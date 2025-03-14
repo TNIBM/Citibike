@@ -45,7 +45,7 @@ if page == "Intro page":
     st.markdown("- Recommendations")
     st.markdown("The dropdown menu on the left 'Aspect Selector' will take you to the different aspects of the analysis our team looked at.")
 
-    myImage = Image.open("Visualizations/CitiBike.jpg") #source: https://www.xbedeals.site/?path=page/ggitem&ggpid=1269823
+    myImage = Image.open("CitiBike.jpg") #source: https://www.xbedeals.site/?path=page/ggitem&ggpid=1269823
     st.image(myImage)
 
 
@@ -131,7 +131,7 @@ elif page == 'Interactive map with aggregated bike trips':
 else:
     
     st.header("Conclusions and recommendations")
-    bikes = Image.open("Visualizations/conclusion.jpg")  #source: https://depositphotos.com/photo/flipchart-business-project-strategy-bicycle-wall-light-modern-office-213024472.html
+    bikes = Image.open("conclusion.jpg")  #source: https://depositphotos.com/photo/flipchart-business-project-strategy-bicycle-wall-light-modern-office-213024472.html
     st.image(bikes)
     st.markdown("### Our analysis has shown that Citi Bike should focus on the following objectives moving forward:")
     st.markdown("- Add more stations to the locations around the Hudson River line, such as Vesey St & Church St - North Moore St & Greenwich St, Roosevelt Island Tramway - Southpoint Park(in island) and Soissons Landing - Yankee Ferry Terminal(in island), and around the city center areas, such as 1 Ave & E 62 St - 1 Ave & E68 St, E 68 St & 3 Ave - 1 Ave & E68 St, and W21 St & 6 Ave - 9 Ave & W 22 St.")
