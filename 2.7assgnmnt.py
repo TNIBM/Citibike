@@ -28,7 +28,7 @@ page = st.sidebar.selectbox('Select an aspect of the analysis',
 
 ########################## Import data ###########################################################################################
 
-df = pd.read_csv('Data/output/reduced_data_to_plot_7.csv').sort_values(by='date')
+df = pd.read_csv('reduced_data_to_plot_7.csv').sort_values(by='date')
 top20 = pd.read_csv('Data/output/top20.csv', index_col = 0)
 
 ######################################### DEFINE THE PAGES #####################################################################
