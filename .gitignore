@@ -1,5 +1,5 @@
 # html ignores
-#*.html
+*.html
 # add data folder
 
 Data/
