@@ -1,1 +1,428 @@
-{"version": "v1", "config": {"visState": {"filters": [{"dataId": ["bike_routes"], "id": "9194sr1s8", "name": ["trips"], "type": "range", "value": [2126, 4637], "plotType": "histogram", "animationWindow": "free", "yAxis": null, "view": "side", "speed": 1, "enabled": true}], "layers": [{"id": "w2lbm5m", "type": "point", "config": {"dataId": "bike_routes", "label": "start", "color": [134, 10, 90], "highlightColor": [252, 242, 26, 255], "columns": {"lat": "start_lat", "lng": "start_lng"}, "isVisible": true, "visConfig": {"radius": 10, "fixedRadius": false, "opacity": 0.8, "outline": false, "thickness": 2, "strokeColor": null, "colorRange": {"name": "Global Warming", "type": "sequential", "category": "Uber", "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]}, "strokeColorRange": {"name": "Global Warming", "type": "sequential", "category": "Uber", "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]}, "radiusRange": [0, 50], "filled": true}, "hidden": false, "textLabel": [{"field": null, "color": [255, 255, 255], "size": 18, "offset": [0, 0], "anchor": "start", "alignment": "center", "outlineWidth": 0, "outlineColor": [255, 0, 0, 255], "background": false, "backgroundColor": [0, 0, 200, 255]}]}, "visualChannels": {"colorField": null, "colorScale": "quantile", "strokeColorField": null, "strokeColorScale": "quantile", "sizeField": null, "sizeScale": "linear"}}, {"id": "yskvxfh", "type": "point", "config": {"dataId": "bike_routes", "label": "end", "color": [253, 121, 0], "highlightColor": [252, 242, 26, 255], "columns": {"lat": "end_lat", "lng": "end_lng"}, "isVisible": true, "visConfig": {"radius": 10, "fixedRadius": false, "opacity": 0.8, "outline": false, "thickness": 2, "strokeColor": null, "colorRange": {"name": "Global Warming", "type": "sequential", "category": "Uber", "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]}, "strokeColorRange": {"name": "Global Warming", "type": "sequential", "category": "Uber", "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]}, "radiusRange": [0, 50], "filled": true}, "hidden": false, "textLabel": [{"field": null, "color": [255, 255, 255], "size": 18, "offset": [0, 0], "anchor": "start", "alignment": "center", "outlineWidth": 0, "outlineColor": [255, 0, 0, 255], "background": false, "backgroundColor": [0, 0, 200, 255]}]}, "visualChannels": {"colorField": null, "colorScale": "quantile", "strokeColorField": null, "strokeColorScale": "quantile", "sizeField": null, "sizeScale": "linear"}}, {"id": "qhw8uml", "type": "arc", "config": {"dataId": "bike_routes", "label": "start -> end arc", "color": [134, 10, 90], "highlightColor": [252, 242, 26, 255], "columns": {"lat0": "start_lat", "lng0": "start_lng", "lat1": "end_lat", "lng1": "end_lng"}, "isVisible": true, "visConfig": {"opacity": 0.8, "thickness": 3.1, "colorRange": {"name": "Global Warming", "type": "sequential", "category": "Uber", "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]}, "sizeRange": [0, 10], "targetColor": [228, 93, 0]}, "hidden": false, "textLabel": [{"field": null, "color": [255, 255, 255], "size": 18, "offset": [0, 0], "anchor": "start", "alignment": "center", "outlineWidth": 0, "outlineColor": [255, 0, 0, 255], "background": false, "backgroundColor": [0, 0, 200, 255]}]}, "visualChannels": {"colorField": null, "colorScale": "quantile", "sizeField": null, "sizeScale": "linear"}}, {"id": "0wa6i0h", "type": "line", "config": {"dataId": "bike_routes", "label": "start -> end line", "color": [18, 92, 119], "highlightColor": [252, 242, 26, 255], "columns": {"lat0": "start_lat", "lng0": "start_lng", "lat1": "end_lat", "lng1": "end_lng"}, "isVisible": false, "visConfig": {"opacity": 0.8, "thickness": 2, "colorRange": {"name": "Global Warming", "type": "sequential", "category": "Uber", "colors": ["#5A1846", "#900C3F", "#C70039", "#E3611C", "#F1920E", "#FFC300"]}, "sizeRange": [0, 10], "targetColor": null, "elevationScale": 1}, "hidden": false, "textLabel": [{"field": null, "color": [255, 255, 255], "size": 18, "offset": [0, 0], "anchor": "start", "alignment": "center", "outlineWidth": 0, "outlineColor": [255, 0, 0, 255], "background": false, "backgroundColor": [0, 0, 200, 255]}]}, "visualChannels": {"colorField": null, "colorScale": "quantile", "sizeField": null, "sizeScale": "linear"}}], "effects": [], "interactionConfig": {"tooltip": {"fieldsToShow": {"bike_routes": [{"name": "start_station_name", "format": null}, {"name": "end_station_name", "format": null}, {"name": "trips", "format": null}]}, "compareMode": false, "compareType": "absolute", "enabled": true}, "brush": {"size": 0.5, "enabled": false}, "geocoder": {"enabled": false}, "coordinate": {"enabled": false}}, "layerBlending": "normal", "overlayBlending": "normal", "splitMaps": [], "animationConfig": {"currentTime": null, "speed": 1}, "editor": {"features": [], "visible": true}}, "mapState": {"bearing": 0, "dragRotate": false, "latitude": 40.731271853803136, "longitude": -73.96631125917952, "pitch": 0, "zoom": 9.13395241849868, "isSplit": false, "isViewportSynced": true, "isZoomLocked": false, "splitMapViewports": []}, "mapStyle": {"styleType": "dark-matter", "topLayerGroups": {}, "visibleLayerGroups": {"label": true, "road": true, "border": false, "building": true, "water": true, "land": true, "3d building": false}, "threeDBuildingColor": [15.035172933000911, 15.035172933000911, 15.035172933000911], "backgroundColor": [0, 0, 0], "mapStyles": {}}}}
+{
+    "version": "v1",
+    "config": {
+        "visState": {
+            "filters": [
+                {
+                    "dataId": [
+                        "bike_routes"
+                    ],
+                    "id": "9194sr1s8",
+                    "name": [
+                        "trips"
+                    ],
+                    "type": "range",
+                    "value": [
+                        2126,
+                        4637
+                    ],
+                    "enlarged": false,
+                    "plotType": "histogram",
+                    "animationWindow": "free",
+                    "yAxis": null,
+                    "speed": 1
+                }
+            ],
+            "layers": [
+                {
+                    "id": "w2lbm5m",
+                    "type": "point",
+                    "config": {
+                        "dataId": "bike_routes",
+                        "label": "start",
+                        "color": [
+                            134,
+                            10,
+                            90
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "lat": "start_lat",
+                            "lng": "start_lng",
+                            "altitude": null
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "radius": 10,
+                            "fixedRadius": false,
+                            "opacity": 0.8,
+                            "outline": false,
+                            "thickness": 2,
+                            "strokeColor": null,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "strokeColorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "radiusRange": [
+                                0,
+                                50
+                            ],
+                            "filled": true
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": null,
+                        "colorScale": "quantile",
+                        "strokeColorField": null,
+                        "strokeColorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear"
+                    }
+                },
+                {
+                    "id": "yskvxfh",
+                    "type": "point",
+                    "config": {
+                        "dataId": "bike_routes",
+                        "label": "end",
+                        "color": [
+                            253,
+                            121,
+                            0
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "lat": "end_lat",
+                            "lng": "end_lng",
+                            "altitude": null
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "radius": 10,
+                            "fixedRadius": false,
+                            "opacity": 0.8,
+                            "outline": false,
+                            "thickness": 2,
+                            "strokeColor": null,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "strokeColorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "radiusRange": [
+                                0,
+                                50
+                            ],
+                            "filled": true
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": null,
+                        "colorScale": "quantile",
+                        "strokeColorField": null,
+                        "strokeColorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear"
+                    }
+                },
+                {
+                    "id": "qhw8uml",
+                    "type": "arc",
+                    "config": {
+                        "dataId": "bike_routes",
+                        "label": "start -> end arc",
+                        "color": [
+                            134,
+                            10,
+                            90
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "lat0": "start_lat",
+                            "lng0": "start_lng",
+                            "lat1": "end_lat",
+                            "lng1": "end_lng"
+                        },
+                        "isVisible": true,
+                        "visConfig": {
+                            "opacity": 0.8,
+                            "thickness": 3.1,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "sizeRange": [
+                                0,
+                                10
+                            ],
+                            "targetColor": [
+                                228,
+                                93,
+                                0
+                            ]
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": null,
+                        "colorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear"
+                    }
+                },
+                {
+                    "id": "0wa6i0h",
+                    "type": "line",
+                    "config": {
+                        "dataId": "bike_routes",
+                        "label": "start -> end line",
+                        "color": [
+                            18,
+                            92,
+                            119
+                        ],
+                        "highlightColor": [
+                            252,
+                            242,
+                            26,
+                            255
+                        ],
+                        "columns": {
+                            "lat0": "start_lat",
+                            "lng0": "start_lng",
+                            "lat1": "end_lat",
+                            "lng1": "end_lng",
+                            "alt0": null,
+                            "alt1": null
+                        },
+                        "isVisible": false,
+                        "visConfig": {
+                            "opacity": 0.8,
+                            "thickness": 2,
+                            "colorRange": {
+                                "name": "Global Warming",
+                                "type": "sequential",
+                                "category": "Uber",
+                                "colors": [
+                                    "#5A1846",
+                                    "#900C3F",
+                                    "#C70039",
+                                    "#E3611C",
+                                    "#F1920E",
+                                    "#FFC300"
+                                ]
+                            },
+                            "sizeRange": [
+                                0,
+                                10
+                            ],
+                            "targetColor": null,
+                            "elevationScale": 1
+                        },
+                        "hidden": false,
+                        "textLabel": [
+                            {
+                                "field": null,
+                                "color": [
+                                    255,
+                                    255,
+                                    255
+                                ],
+                                "size": 18,
+                                "offset": [
+                                    0,
+                                    0
+                                ],
+                                "anchor": "start",
+                                "alignment": "center"
+                            }
+                        ]
+                    },
+                    "visualChannels": {
+                        "colorField": null,
+                        "colorScale": "quantile",
+                        "sizeField": null,
+                        "sizeScale": "linear"
+                    }
+                }
+            ],
+            "interactionConfig": {
+                "tooltip": {
+                    "fieldsToShow": {
+                        "bike_routes": [
+                            {
+                                "name": "start_station_name",
+                                "format": null
+                            },
+                            {
+                                "name": "end_station_name",
+                                "format": null
+                            },
+                            {
+                                "name": "trips",
+                                "format": null
+                            }
+                        ]
+                    },
+                    "compareMode": false,
+                    "compareType": "absolute",
+                    "enabled": true
+                },
+                "brush": {
+                    "size": 0.5,
+                    "enabled": false
+                },
+                "geocoder": {
+                    "enabled": false
+                },
+                "coordinate": {
+                    "enabled": false
+                }
+            },
+            "layerBlending": "normal",
+            "splitMaps": [],
+            "animationConfig": {
+                "currentTime": null,
+                "speed": 1
+            }
+        },
+        "mapState": {
+            "bearing": 0,
+            "dragRotate": false,
+            "latitude": 40.731271853803136,
+            "longitude": -73.96631125917952,
+            "pitch": 0,
+            "zoom": 9.13395241849868,
+            "isSplit": false
+        },
+        "mapStyle": {
+            "styleType": "dark",
+            "topLayerGroups": {},
+            "visibleLayerGroups": {
+                "label": true,
+                "road": true,
+                "border": false,
+                "building": true,
+                "water": true,
+                "land": true,
+                "3d building": false
+            },
+            "threeDBuildingColor": [
+                15.035172933000911,
+                15.035172933000911,
+                15.035172933000911
+            ],
+            "mapStyles": {}
+        }
+    }
+}
