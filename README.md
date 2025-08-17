@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project focuses on examining Citi Bike's 2023 bike-sharing data in New York City to uncover distribution challenges affecting bike availability and to propose practical solutions. 
+This project focuses on examining Citi Bike's 2022 bike-sharing data in New York City to uncover distribution challenges affecting bike availability and to propose practical solutions. 
 As the lead analyst, my role is to investigate how factors like rider behavior, station placement, and weather conditions influence bike access across the city.
 
 - Key areas of analysis include:
